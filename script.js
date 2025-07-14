@@ -46,5 +46,4 @@ webgazer.setGazeListener((data, timestamp) => {
     scrollByAmount(scroll_amount);
   }
 }).begin();
-
 webgazer.showVideoPreview(true).showPredictionPoints(true);
